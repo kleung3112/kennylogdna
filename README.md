@@ -11,3 +11,5 @@
 # When you send message it may take a few seconds to start up the backend server
 
 # Backend server is running on Heroku.
+
+# Frontend is hosted on https://kleung3112.github.io/
