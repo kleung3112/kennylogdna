@@ -1,0 +1,14 @@
+.header-bar {
+  display: flex;
+  align-items: center;
+  height: 7vh;
+}
+.header-logo {
+  height: 7vh;
+  width: 6vw;
+}
+.header-title {
+  color: rgb(112, 112, 112);
+  padding: 0px 20px;
+  font-size: 2rem;
+}

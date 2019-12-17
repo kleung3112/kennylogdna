@@ -1,0 +1,18 @@
+.article-block {
+  border-bottom: 1px solid grey;
+  padding: 5px;
+}
+
+.article-anchor:hover,
+.article-anchor:focus {
+  cursor:pointer;
+  color: blue;
+  outline: none;
+}
+
+.article-heading {
+  display: inline-block;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

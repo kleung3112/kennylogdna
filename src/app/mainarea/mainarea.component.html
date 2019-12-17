@@ -1,0 +1,26 @@
+<div class="main-container">
+  <div class="main-heading">Aenean cursus efficitur tellus sed luctus.</div>
+  <div class="main-subheading">Proin sed justo a ligula lobortis suscipit ut vel urna.</div><br>
+  <div class="main-content">
+    Suspendisse ut tristique nulla. Suspendisse tempor porttitor orci. Nullam porttitor bibendum massa sed accumsan. Maecenas sit
+    amet erat in erat faucibus scelerisque consequat non est. Nunc tempor, libero vestibulum faucibus dignissim, urna nisi interdum
+    eros, in semper nisi ipsum sed ex. Morbi mattis quam eget finibus hendrerit. Nunc porttitor euismod posuere. Ut suscipit eleifend
+    lectus euismod tincidunt. Vivamus posuere tempus nulla quis interdum. Integer vulputate venenatis vehicula. Duis ut imperdiet arcu.
+    Ut malesuada, leo at ullamcorper ullamcorper, enim mi elementum est, nec mollis augue dui ut ligula. Fusce a neque lobortis,
+    ullamcorper lorem quis, fermentum sem. Etiam sed interdum sapien. Integer vel ligula non nisl imperdiet gravida quis ac nulla.
+    Sed ornare sem a condimentum blandit. In eros purus, pretium ac velit in, feugiat vehicula arcu. Morbi tincidunt, lectus at convallis laoreet,
+    nisl leo vulputate elit, non accumsan lorem sapien sed turpis. Praesent tincidunt rutrum urna nec aliquam. Aenean sed urna varius,
+    ullamcorper ligula ac, pellentesque mauris.
+  </div><br><br>
+  <div class="main-rectangle-box"></div>
+  <div class="main-rectangle-bottom-text">Aenean ac tincidunt diam.</div>
+</div>
+<div class="message-container">
+  <form [formGroup]="msgForm" (ngSubmit)="submitMsg(msgForm)" id="msgForm">
+    <div class="message-input-container">
+      <input type="text" class="message-input" placeholder="Message..." id="msg" name="msg" formControlName="msg" required>
+      <input type="submit" class="message-submit-button" value="Submit">
+    </div>
+  </form>
+</div>
+

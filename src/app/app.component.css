@@ -1,0 +1,46 @@
+.grid-header {
+  grid-area: header;
+  border: 1px solid grey;
+  height: 7vh;
+
+
+}
+
+.grid-vnav {
+  grid-area: vnav;
+
+  width: 6vw;
+
+
+}
+
+.grid-articles {
+  grid-area: articles;
+  border: 1px solid grey;
+}
+
+.grid-mainarea {
+  grid-area: mainarea;
+  border: 1px solid grey;
+
+  width: 70vw;;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'vnav articles mainarea mainarea mainarea mainarea';
+  grid-gap: 0px;
+
+  background-color: rgb(196, 196, 196);
+  padding: 0px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 0px;
+  font-size: 1rem;
+}

@@ -1,0 +1,36 @@
+.vnav-container {
+  background: rgb(54, 54, 54);
+  height: 100%;
+}
+
+.vnav-block-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.vnav-block-image {
+  height: 60px;
+  width: 60px;
+  margin: auto;
+  background: white;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.vnav-block-image:hover,
+.vnav-block-image:focus {
+  cursor:pointer;
+  border: 1px solid blue;
+  outline: none;
+}
+
+.vnav-block-image:focus {
+  background: blue;
+}
+
+.vnav-block-number {
+  color: white;
+  width: 60px;
+  margin: auto;
+  text-align: center;
+}
